@@ -16,13 +16,13 @@
   <header>
     <div class="header_flex">
       <h1>
-        <a href="{{ url('/') }}"><img src="{{ asset('/images/logo.png') }}" alt="スキップカフェロゴ"></a>
+        <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="スキップカフェロゴ"></a>
       </h1>
       <nav id="nav">
         <ul>
-          <li><a href="{ {url('/news') }}">News</a></li>
-          <li><a href="{ {url('/access') }}">Access</a></li>
-          <li><a href="{{ url('/contact') }}">Contact</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/access">Access</a></li>
+          <li><a href="/contact">Contact</a></li>
           <li><a href="http://skip.ocnk.net/">Online&nbsp;Shop</a></li>
         </ul>
       </nav>
@@ -60,7 +60,7 @@
   <!-- フッター -->
   <footer>
     <div>
-      <a href="{{ url('/') }}">
+      <a href="/">
         <img src="{{ asset('/images/logo.png') }}" alt="スキップカフェロゴ">
       </a>
     </div>

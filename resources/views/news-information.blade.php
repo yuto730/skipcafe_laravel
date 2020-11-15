@@ -27,7 +27,7 @@
   @section('newsNav')
       <div class="news_nav">
         <div class="news_details_contents">
-          <a href="{ {url('/newsinfo') }}">
+          <a href="/news-information">
             <div class="news_img news_nav_img">
               <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
             </div>
@@ -39,7 +39,7 @@
           </a>
         </div>
         <div class="news_details_contents">
-          <a href="{ {url('/newsinfo') }}">
+          <a href="/news-information">
             <div class="news_img news_nav_img">
               <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
             </div>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="more_news">
-      <a href="{ {url('/news') }}">ニュース一覧</a>
+      <a href="/news">ニュース一覧</a>
     </div>
   </section>
   @endsection
