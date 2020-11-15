@@ -51,6 +51,9 @@
   @yield('newsInfo')
   @yield('newsNav')
 
+  <!-- access -->
+  @yield('access')
+
 
   <!-- フッター -->
   <footer>
