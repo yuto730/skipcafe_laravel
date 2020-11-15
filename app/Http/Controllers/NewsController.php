@@ -8,11 +8,8 @@ use App\Models\News;
 
 class NewsController extends Controller
 {
-    public function model()
+    public function newsList()
     {
-        $md = new News();
-        $data = $md->getNewsData();
-
-        return view('index', ['data' => $data]);
+        return view('news');
     }
 }

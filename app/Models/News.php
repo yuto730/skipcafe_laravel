@@ -15,7 +15,6 @@ class News extends Model
     public function getNewsData()
     {
         $data = DB::table($this->table)->get();
-
         return $data;
     }
 }

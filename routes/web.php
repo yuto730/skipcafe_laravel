@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function() {
-//     return view('index');
-// });
+Route::get('/', function() {
+    return view('index');
+});
 
-Route::get('/', 'App\Http\Controllers\SkipController@getIndex');
-Route::get('/news', 'App\Http\Controllers\SkipController@getNews');
+Route::get('/news', [NewsController::class, 'newsList']);
