@@ -13,7 +13,7 @@
   <section>
     <div class="news_flex">
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -26,7 +26,7 @@
       </div>
       <!-- 複製 -->
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -38,7 +38,7 @@
         </a>
       </div>
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -50,7 +50,7 @@
         </a>
       </div>
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -62,7 +62,7 @@
         </a>
       </div>
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -74,7 +74,7 @@
         </a>
       </div>
       <div class="news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>

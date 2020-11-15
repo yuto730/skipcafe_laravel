@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\NewsInfoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function() {
 });
 
 Route::get('/news', [NewsController::class, 'newsList']);
+Route::get('/newsinfo', [NewsInfoController::class, 'newsInfo']);

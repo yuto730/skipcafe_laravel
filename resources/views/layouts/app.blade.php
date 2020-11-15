@@ -41,9 +41,15 @@
   @yield('about')
   @yield('top_news')
 
-  <!-- news -->
+  <!-- 下層ページ -->
   @yield('first_view')
+
+  <!-- news -->
   @yield('news')
+
+  <!-- newsInfo -->
+  @yield('newsInfo')
+  @yield('newsNav')
 
 
   <!-- フッター -->
