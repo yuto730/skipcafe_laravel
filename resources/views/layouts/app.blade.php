@@ -54,6 +54,8 @@
   <!-- access -->
   @yield('access')
 
+  <!-- contact -->
+  @yield('contact')
 
   <!-- フッター -->
   <footer>

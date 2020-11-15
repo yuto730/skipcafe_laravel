@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\NewsInfoController;
 use App\Http\Controllers\AccessController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,4 @@ Route::get('/', function() {
 Route::get('/news', [NewsController::class, 'newsList']);
 Route::get('/newsinfo', [NewsInfoController::class, 'newsInfo']);
 Route::get('/access', [AccessController::class, 'access']);
+Route::get('/contact', [ContactController::class, 'contact']);
