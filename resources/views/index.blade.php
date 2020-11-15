@@ -115,7 +115,7 @@
     </div>
     <div class="top_news_flex">
       <div class="top_news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="top_news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -128,7 +128,7 @@
       </div>
       <!-- 複製 -->
       <div class="top_news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="top_news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -140,7 +140,7 @@
         </a>
       </div>
       <div class="top_news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="top_news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
@@ -152,7 +152,7 @@
         </a>
       </div>
       <div class="top_news_contents">
-        <a href="{ {url('/newsdetails') }}">
+        <a href="{ {url('/newsinfo') }}">
           <div class="top_news_img">
             <img src="{{ asset('/images/news_img01.png') }}" alt="休業のお知らせ">
           </div>
